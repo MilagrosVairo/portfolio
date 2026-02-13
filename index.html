@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Milagros Vairo - Portfolio | Tecnóloga en Informática</title>
+    <meta name="description" content="Portfolio profesional de Milagros Vairo, Tecnóloga en Informática especializada en desarrollo web fullstack y diseño UX/UI. Proyectos con React, TypeScript, Spring Boot y más." />
+    <meta name="keywords" content="Milagros Vairo, portfolio, desarrolladora web, fullstack developer, React, TypeScript, Spring Boot, UX/UI designer, tecnóloga informática" />
+    <meta name="author" content="Milagros Vairo" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio.vercel.app/" />
+    <meta property="og:title" content="Milagros Vairo - Portfolio | Tecnóloga en Informática" />
+    <meta property="og:description" content="Portfolio profesional de Milagros Vairo. Proyectos de desarrollo web fullstack y diseño UX/UI." />
+    <meta property="og:image" content="https://portfolio.vercel.app/images/profile/avatar.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://portfolio.vercel.app/" />
+    <meta property="twitter:title" content="Milagros Vairo - Portfolio | Tecnóloga en Informática" />
+    <meta property="twitter:description" content="Portfolio profesional de Milagros Vairo. Proyectos de desarrollo web fullstack y diseño UX/UI." />
+    <meta property="twitter:image" content="https://portfolio.vercel.app/images/profile/avatar.jpg" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                pink: '#ff0080', // Approximate hot pink from image
+                light: '#ffe6f2',
+                dark: '#333333',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              mono: ['"Space Mono"', 'monospace'],
+            },
+            animation: {
+              blob: "blob 7s infinite",
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            },
+            keyframes: {
+              blob: {
+                "0%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+                "33%": {
+                  transform: "translate(30px, -50px) scale(1.1)",
+                },
+                "66%": {
+                  transform: "translate(-20px, 20px) scale(0.9)",
+                },
+                "100%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #ff0080;
+        border-radius: 4px;
+      }
+      
+      /* Animation Delays utilities */
+      .animation-delay-2000 {
+        animation-delay: 2s;
+      }
+      .animation-delay-4000 {
+        animation-delay: 4s;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white text-gray-800 antialiased selection:bg-brand-pink selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
