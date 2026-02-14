@@ -29,7 +29,7 @@ const App: React.FC = () => {
       
       <footer className="bg-white py-8 border-t border-gray-100">
         <div className="container mx-auto px-6 text-center text-gray-400 text-sm font-medium">
-          <p>&copy; {new Date().getFullYear()} Milagros Vairo.</p>
+          <p>&copy; {new Date().getFullYear()} Milagros Vairo</p>
         </div>
       </footer>
     </div>

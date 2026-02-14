@@ -108,7 +108,7 @@ const Contact: React.FC = () => {
         {/* CV Download Separate Call to Action */}
         <div className="mt-16 text-center">
           <a 
-            href="/cv.pdf" 
+            href="/Milagros%20Vairo%20CV.pdf" 
             download
             className="inline-flex items-center gap-2 px-10 py-4 min-w-[200px] bg-gray-900 text-white rounded-full font-bold hover:bg-brand-pink transition-all duration-300 shadow-lg hover:shadow-pink-500/25 active:scale-95 justify-center"
           >

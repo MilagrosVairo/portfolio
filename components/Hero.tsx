@@ -49,9 +49,9 @@ const Hero: React.FC = () => {
             <a href="#projects" className="group px-10 py-4 min-w-[200px] rounded-full border-[2px] border-gray-200 text-gray-600 font-bold hover:border-brand-pink hover:text-brand-pink transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-pink-100 active:scale-95 flex items-center justify-center gap-2">
               Ver Portfolio
             </a>
-            <button className="px-10 py-4 min-w-[200px] rounded-full bg-gray-900 text-white font-bold hover:bg-brand-pink transition-all duration-300 shadow-lg hover:shadow-pink-500/25 active:scale-95 border border-transparent">
+            <a href="/Milagros%20Vairo%20CV.pdf" download className="px-10 py-4 min-w-[200px] rounded-full bg-gray-900 text-white font-bold hover:bg-brand-pink transition-all duration-300 shadow-lg hover:shadow-pink-500/25 active:scale-95 border border-transparent flex items-center justify-center">
               Descargar CV
-            </button>
+            </a>
           </div>
         </div>
       </div>
