@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  ExternalLink, 
   Github, 
   Layers, 
   Palette, 
@@ -142,6 +141,14 @@ const Projects: React.FC = () => {
 
   const filteredProjects = PROJECTS.filter(p => filter === 'all' || p.type === filter);
 
+  // Create full gallery including main image for design projects
+  const getFullGallery = (project: Project): string[] => {
+    if (project.type === 'design' && project.gallery.length > 0) {
+      return [project.mainImage, ...project.gallery];
+    }
+    return project.gallery;
+  };
+
   // Keyboard navigation for lightbox
   useEffect(() => {
     if (lightboxImage === null || !selectedProject) return;
@@ -169,14 +176,6 @@ const Projects: React.FC = () => {
     setSelectedProject(null);
     setLightboxImage(null);
     setIsZoomed(false);
-  };
-
-  // Create full gallery including main image for design projects
-  const getFullGallery = (project: Project): string[] => {
-    if (project.type === 'design' && project.gallery.length > 0) {
-      return [project.mainImage, ...project.gallery];
-    }
-    return project.gallery;
   };
 
   return (
