@@ -51,7 +51,7 @@ npm run dev
 - `npm run dev` - Inicia el servidor de desarrollo
 - `npm run build` - Construye la aplicación para producción
 - `npm run preview` - Previsualiza la build de producción
-- `npm run lint` - Ejecuta el linter
+- `npm run lint` - Ejecuta ESLint para verificar la calidad del código
 
 ## 📁 Estructura del Proyecto
 

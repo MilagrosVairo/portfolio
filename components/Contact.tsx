@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Github, Palette, ArrowUpRight, FileText } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, Palette, ArrowUpRight } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const socialLinks = [

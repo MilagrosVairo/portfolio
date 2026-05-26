@@ -2,12 +2,10 @@ import {
   Code2, 
   Server, 
   Database, 
-  Layout, 
   Globe, 
   Box, 
   GitBranch, 
   Layers, 
-  MessageSquare,
   Trello,
   Figma,
   Cloud,
@@ -16,7 +14,6 @@ import {
   Hash,
   FileType2,
   Send,
-  PenTool,
   Palette
 } from 'lucide-react';
 import { Skill, SkillCategory } from './types';
