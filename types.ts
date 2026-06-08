@@ -1,6 +1,7 @@
 import { LucideIcon } from "lucide-react";
 
 export enum SkillCategory {
+  PRODUCT_DATA = "Product & Data Analytics",
   BACKEND = "Backend",
   FRONTEND = "Frontend & Design",
   DATABASE = "Databases",

@@ -25,14 +25,13 @@ const TechStack: React.FC = () => {
             Stack Tecnológico
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg font-light">
-            Un ecosistema de herramientas seleccionadas para crear soluciones digitales robustas y escalables.
-          </p>
-        </div>
+            Tecnología con propósito. Integro diseño de experiencia, desarrollo funcional y análisis de datos para optimizar todo el ciclo de vida del producto.
+          </p>    </div>
 
         <div className="space-y-20 max-w-5xl mx-auto">
           {categories.map((category) => (
             <div key={category} className="relative group/category">
-              
+
               {/* Category Header */}
               <div className="flex items-center mb-8">
                 <h3 className="text-2xl font-light text-gray-800">
@@ -57,7 +56,7 @@ const TechStack: React.FC = () => {
                   >
                     {/* Hover subtle background fill */}
                     <div className="absolute inset-0 bg-gradient-to-r from-brand-pink/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    
+
                     {/* Icon */}
                     <div className="relative z-10 p-1.5 rounded-full bg-gray-50 text-gray-500 group-hover:text-brand-pink group-hover:bg-white transition-colors duration-300">
                       <skill.icon size={18} strokeWidth={1.5} />

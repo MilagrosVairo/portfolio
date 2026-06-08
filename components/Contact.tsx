@@ -65,8 +65,7 @@ const Contact: React.FC = () => {
             </span>
           </h2>
           <p className="text-gray-500 text-xl font-light leading-relaxed max-w-2xl mx-auto">
-            Estoy disponible para nuevas oportunidades laborales. Si buscas alguien que combine lógica técnica con enfoque en experiencia de usuario, no dudes en escribirme.
-          </p>
+            Estoy disponible para sumarme a nuevos desafíos profesionales. </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -107,8 +106,8 @@ const Contact: React.FC = () => {
 
         {/* CV Download Separate Call to Action */}
         <div className="mt-16 text-center">
-          <a 
-            href="/Milagros%20Vairo%20CV.pdf" 
+          <a
+            href="/Milagros%20Vairo%20CV.pdf"
             download
             className="inline-flex items-center gap-2 px-10 py-4 min-w-[200px] bg-gray-900 text-white rounded-full font-bold hover:bg-brand-pink transition-all duration-300 shadow-lg hover:shadow-pink-500/25 active:scale-95 justify-center"
           >

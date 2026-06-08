@@ -5,26 +5,26 @@ const steps = [
   {
     icon: Search,
     step: '01',
-    title: 'Descubrimiento',
-    desc: 'Investigación profunda para entender el problema y definir objetivos claros antes de escribir una línea de código.'
+    title: 'Análisis y Descubrimiento',
+    desc: 'Investigación profunda y análisis de datos para entender el problema de raíz. Defino métricas de éxito (KPIs) y objetivos estratégicos claros antes de proponer una solución.'
   },
   {
     icon: PenTool,
     step: '02',
     title: 'Diseño UI/UX',
-    desc: 'Creación de wireframes y prototipos interactivos, enfocados en una experiencia de usuario intuitiva y estética.'
+    desc: 'Creación de wireframes y prototipos interactivos. Transformo los hallazgos analíticos iniciales en experiencias de usuario intuitivas, accesibles y orientadas a la conversión.'
   },
   {
     icon: Code,
     step: '03',
-    title: 'Desarrollo',
-    desc: 'Implementación con código limpio y arquitecturas escalables, integrando frontend y backend de forma eficiente.'
+    title: 'Desarrollo Full Stack',
+    desc: 'Implementación con código limpio y arquitecturas escalables. Construcción de bases de datos sólidas y conexión eficiente entre frontend y backend para garantizar un rendimiento óptimo.'
   },
   {
     icon: CheckCircle,
     step: '04',
-    title: 'Entrega & QA',
-    desc: 'Pruebas rigurosas, optimización de rendimiento y despliegue final asegurando la máxima calidad.'
+    title: 'Entrega, QA y Medición',
+    desc: 'Pruebas rigurosas, despliegue final y creación de paneles de control. No solo entrego el producto, sino que mido su rendimiento continuo para respaldar futuras decisiones de negocio.'
   }
 ];
 
@@ -33,8 +33,8 @@ const Methodology: React.FC = () => {
     <section className="relative pb-32 bg-white overflow-hidden">
       {/* Wavy Divider SVG preserved for layout continuity */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0] transform -translate-y-full z-20">
-         <svg className="relative block w-[calc(100%+1.3px)] h-[100px] md:h-[150px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="fill-white"></path>
+        <svg className="relative block w-[calc(100%+1.3px)] h-[100px] md:h-[150px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="fill-white"></path>
         </svg>
       </div>
 
@@ -50,8 +50,7 @@ const Methodology: React.FC = () => {
             Mi Proceso Creativo
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg font-light leading-relaxed">
-            Una metodología estructurada pero flexible, diseñada para transformar ideas abstractas en productos digitales tangibles y funcionales.
-          </p>
+            Una metodología estructurada para transformar datos e ideas abstractas en soluciones digitales con un impacto medible.          </p>
         </div>
 
         <div className="relative">
@@ -61,7 +60,7 @@ const Methodology: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
             {steps.map((item, idx) => (
               <div key={idx} className="group relative flex flex-col items-center text-center">
-                
+
                 {/* Step Number Badge */}
                 <div className="absolute -top-12 opacity-10 text-6xl font-black text-gray-300 select-none group-hover:text-brand-pink group-hover:opacity-20 transition-all duration-500">
                   {item.step}
@@ -72,7 +71,7 @@ const Methodology: React.FC = () => {
                   <div className="absolute inset-0 bg-brand-pink/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="w-24 h-24 bg-white rounded-full border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex items-center justify-center relative z-10 group-hover:-translate-y-2 transition-transform duration-300">
                     <item.icon size={32} className="text-gray-400 group-hover:text-brand-pink transition-colors duration-300" strokeWidth={1.5} />
-                    
+
                     {/* Tiny connector dot on the circle */}
                     <div className="hidden md:block absolute -right-4 top-1/2 w-2 h-2 bg-pink-200 rounded-full md:opacity-0 md:group-hover:opacity-100 transition-opacity" />
                   </div>
@@ -87,7 +86,7 @@ const Methodology: React.FC = () => {
                     {item.desc}
                   </p>
                 </div>
-                
+
                 {/* Mobile Connector (Arrow) */}
                 {idx !== steps.length - 1 && (
                   <div className="md:hidden mt-8 text-pink-200">
