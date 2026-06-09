@@ -47,7 +47,7 @@ const PROJECTS: Project[] = [
     tags: ["Power BI", "Power Query", "DAX", "Data Modeling", "ETL", "Excel"],
     mainImage: "/images/dashboard-soporte-IT/gallery-00.png",
     githubLink: "https://github.com/MilagrosVairo/dashboard-soporte-it-powerbi",
-    docLink: "/public/docs/informe_analisis_negocio_1.pdf",
+    docLink: "/docs/informe_analisis_negocio_1.pdf",
     gallery: [
       "/images/dashboard-soporte-IT/gallery-01.png",
       "/images/dashboard-soporte-IT/gallery-02.png",
